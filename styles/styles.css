@@ -2,3 +2,22 @@ body {
     background-color:floralwhite;
 
   }
+
+.navbar {
+    background-color:grey;
+    overflow: hidden;
+  }
+  
+  .navbar a {
+    float: center;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color:dimgray;
+    color:cornflowerblue;
+  }
+  
