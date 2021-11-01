@@ -1,4 +1,164 @@
-body {
-    background-color:lightblue;
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
+html, body {
+    background-color:#EBEBEB;
+    padding: 0;
+    margin: 0;
+
+  }
+
+
+
+
+
+header{
+    background-color: #223443;
+    margin:0;
+    width: 100%;
+    position: relative;
+  }
+
+.logoimg img {
+  height: 2em;
+}
+
+.logoimg{
+    display: inline-block;
+    box-sizing: content-box;
+}
+
+button {
+  border: none;
+  color: white;
+  text-align: center;
+  border-radius: 10em;
+  width: 5em;
+  height: 2em;
+ 
+  justify-content: center;
+}
+.buttons {
+  position: relative;
+  display: block;
+  float: right;
+}
+.button1{
+  background-color: red;
+  
+}
+.button2{
+  background-color: turquoise;
+ 
+}
+
+
+
+
+
+
+
+
+  nav {
+    height: 100%;
+    width: 100%;
+    background-color: #EBEBEB;
+    margin:0;
+    display: inline-block;
+  }
+
+  nav ul {
+    text-align: left;
+  }
+
+  nav ul input {
+    float: right;
+    margin-right: 5%;
+    border:none;
+    border-radius: 10em;
+    font-size: 15px;
+    width: 15em;
+    height: 3em;
+    text-align: center;
+  }
+
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    font-family: 'Staatliches', cursive;
+    font-size: 25px;
+    color: #292929;
+    margin-left: 2em;
+    padding-left: 1.5em;
+    padding: 0.3em;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+  }
+
+  nav ul li a:active {
+    color: #b63a1b;
+  }
+
+  nav ul li a:visited {
+    color: #292929;
+  }
+
+  nav ul li a:hover {
+    color: #1a4466;
+  }
+
+  
+
+
+
+
+
+
+
+
+  #ctasection{
+    
+    height: 100%;
+    position: relative;
+    
+  }
+
+  #ctasection .logo{
+    width: 300px;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto; 
+
+    }
+
+  #ctasection .image {
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    
+  }
+
+
+
+
+
+  .gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  .gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: auto;
   }
