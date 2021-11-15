@@ -1,0 +1,104 @@
+
+main{
+    background-color: white;
+    height: 100%;
+}
+
+.main-wrapper{
+background-color:whitesmoke;
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 2fr 1fr;
+place-items: center;
+}
+
+.main-content{
+    grid-row: 2/3;
+    grid-column: 2;
+    padding: 10px;
+}
+
+.main-image{
+    grid-row: 2/3;
+    grid-column: 1;
+}
+
+.main-image img{
+    height: auto;
+    max-width: 100%;
+    padding: 20px;
+}
+
+.main-content h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    font-size: 40px;
+}
+
+.main-content p{
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+    padding: .5em 0;
+}
+
+.main-content span{
+    font-family: 'Roboto', sans-serif;
+    font-weight:100;
+}
+
+
+.aboutwrapper{
+    max-width: 100%;
+    height: auto;
+    align-self: center;
+    margin: 3em 3em;
+}
+.aboutwrapper h1{
+    font-size: 7vw;
+    font-family: "Roboto Condensed";
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    
+    color: #1b1b1b;
+}
+.first-section{
+    text-align: center;
+}
+
+.first-section p {
+    font-family: "Roboto Condensed";
+    font-size: 4vw;
+    text-transform: uppercase;
+}
+.first-section span{
+    font-family: "Roboto";
+    font-weight: 100;
+    font-size: 3vw;
+    margin: 2em;
+}
+.first-section figure img{
+    max-width: 100%;
+    height: auto;
+}
+
+.second-section{
+    text-align: center;
+}
+
+.second-section p {
+    font-family: "Roboto Condensed";
+    font-size: 4vw;
+    text-transform: uppercase;
+}
+.second-section span{
+    font-family: "Roboto";
+    font-weight: 100;
+    font-size: 3vw;
+    margin: 2em;
+}
+.second-section figure img{
+    max-width: 100%;
+    height: auto;
+}
